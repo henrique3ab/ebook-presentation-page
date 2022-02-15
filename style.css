@@ -48,6 +48,14 @@
     width: 100%;
 }
 
+/*Text banner */
+.text-banner {
+    position: sticky;
+    text-align: center;
+   
+    
+}
+
 /*Center titles */
 .text-center {
     text-align: center;
