@@ -8,7 +8,7 @@
 /*Background image */
 .bg-img {
     background-image: url("assets/img/bannerLivro.png");
-    width: 100%;
+    max-width: 480vw;
     min-height: 380px;
     height: 516px;
     background-position: center;
