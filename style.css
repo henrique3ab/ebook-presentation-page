@@ -1,0 +1,241 @@
+/*Font*/
+.main {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    
+}
+
+/*Background image */
+.bg-img {
+    background-image: url("assets/img/bannerLivro.png");
+    width: 100%;
+    min-height: 380px;
+    height: 516px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/*Style navbar */
+.nav {
+    overflow: hidden;
+    background-color: #e75d1c;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+}
+
+/*Navbar Links */
+.nav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+.nav a:hover{
+    color: #000;
+    background-color: #f2f2f2;
+    transition: 0.5s;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+/*Center titles */
+.text-center {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px 10px;
+}
+
+/*Divider*/
+hr.solid {
+    margin: 2.0rem auto;
+    max-width: 4rem;
+    opacity: 1;
+    height: 0.1rem;
+    border-radius: 8px solid;
+    background-color:#f2f2f2;
+}
+
+/*About page*/
+#about {
+    padding: 24px 80px;
+    background-color: #e75d1c;
+    color: #f2f2f2;
+}
+
+/*Div-Button*/
+.div-btn {
+    padding: 8px 5px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+/*Button*/
+.btn-purchase {
+    width: 500px;
+    padding: 8px 32px 8px 32px;
+    margin: 50px 30px;
+    border-radius: 10px;
+    border: 2px solid #48b91c;
+    background-color: #48b91c;
+    color: #f2f2f2;
+    text-decoration: none;
+    text-align: center;
+}
+
+.btn-purchase:hover{
+    transition: 2s;
+    background-color: #f2f2f2 ;
+    border-color: #48b91c;
+    color: #48b91c;
+}
+
+/*Benefits*/
+.benefits {
+    background-color: #f2f2f2;
+}
+
+.benefits hr{
+    margin: 2.0rem auto;
+    max-width: 4rem;
+    opacity: 1;
+    height: 0.2rem;
+    border-radius: 8px solid;
+    background-color:#e75d1c;   
+}
+
+.benefits i {
+    font-size: 30px;
+}
+
+.row {
+    --bs-gutter-x: rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-0.5 * var(--bs-gutter-x));
+    margin-left: calc(-0.5 * var(--bs-gutter-x));
+}
+
+.boxServices {
+    display: flex;
+    justify-content: space-around;
+}
+
+.col-lg-3 {
+    flex: 0 0 auto;
+    width: 30%;
+}    
+
+.col-md-6 {
+    flex: 0 0 auto;
+    width: 60%;
+}
+
+.center {
+    text-align: center;
+}
+
+.row div {
+    display: inline-block;
+    text-align: center;
+    width: 55%;
+    vertical-align: top;
+    margin: 5px 5px;
+    padding: 30px 20px;
+    box-sizing: border-box;
+}
+
+.title-card {
+    padding: 10px 10px;
+    font-weight: bold;
+}
+
+.row i {
+    color: #e75d1c;
+    font-weight: bold;
+}
+
+#purchase {
+    padding: 20px 10px;
+    background-color: #e75d1c;
+    color: #f2f2f2;
+}
+
+/*Assessment*/
+.evaluate {
+    background-color: #f2f2f2;
+    color: #000;
+    padding-top: 30px;
+}
+
+.btn-evaluate {
+    padding: 32px 8px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.btn-like {
+    width: 180px;
+    font-size: 30px;
+    border-color: #48b91c;
+    background-color: #f2f2f2;
+}
+
+.btn-like:hover{
+    transition: 1s;
+    color: #f2f2f2;
+    background-color: #48b91c;
+}
+
+.btn-dislike {
+    width: 180px;
+    font-size: 30px;
+    border-color: #b91c1c;
+    background-color: #f2f2f2;
+}
+
+.btn-dislike:hover{
+    transition: 1s;
+    color: #f2f2f2;
+    background-color: #b91c1c;
+}
+
+.footer-page {
+    background-color: #e75d1c;
+    color: #f2f2f2;
+}
+
+.row-footer{
+    text-align: center;
+    font-size: 14px;
+}
+
+.link-contact {
+    display: flex;
+    justify-content: center;
+    padding: 16px 16px;
+}
+
+.link-contact i {
+    color: #f2f2f2;
+    margin: 8px 8px 8px 8px;
+}
+
+.link-contact i:hover {
+    transition: 0.5s;
+    color: #000;
+}
