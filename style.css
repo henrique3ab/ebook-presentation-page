@@ -18,29 +18,35 @@
 }
 
 /*Style navbar */
-.nav {
-    overflow: hidden;
-    background-color: #e75d1c;
-    padding: 10px;
-    position: fixed;
+.container {
     width: 100%;
+    background-color: #e75d1c;
+    overflow: hidden;
+    position: fixed;
+    padding-left: 16px;
 }
 
 /*Navbar Links */
-.nav a {
-    float: right;
+.container a {
+    float: left;
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px;
+    padding: 14px 16px;
     text-decoration: none;
+    font-size: 17px;
 }
 
-.nav a:hover{
+.container a:hover{
     color: #000;
     background-color: #f2f2f2;
     transition: 0.5s;
 }
+
+.topnav a.active {
+    background-color: #000;
+    color: #f2f2f2;
+  }
 
 .sticky {
     position: fixed;
@@ -56,12 +62,19 @@
     
 }
 
+/*About page*/
+#about {
+    padding: 24px 80px;
+    background-color: #e75d1c;
+    color: #f2f2f2;
+}
+
 /*Center titles */
 .text-center {
     text-align: center;
     font-size: 25px;
     font-weight: bold;
-    padding: 10px 10px;
+    padding: 16px 8px;
 }
 
 /*Divider*/
@@ -72,13 +85,6 @@ hr.solid {
     height: 0.1rem;
     border-radius: 8px solid;
     background-color:#f2f2f2;
-}
-
-/*About page*/
-#about {
-    padding: 24px 80px;
-    background-color: #e75d1c;
-    color: #f2f2f2;
 }
 
 /*Div-Button*/
@@ -112,6 +118,7 @@ hr.solid {
 /*Benefits*/
 .benefits {
     background-color: #f2f2f2;
+    padding-top: 20px;
 }
 
 .benefits hr{
@@ -159,7 +166,7 @@ hr.solid {
 .row div {
     display: inline-block;
     text-align: center;
-    width: 55%;
+    width: 25%;
     vertical-align: top;
     margin: 5px 5px;
     padding: 30px 20px;
