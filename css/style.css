@@ -46,7 +46,7 @@
 .topnav a.active {
     background-color: #000;
     color: #f2f2f2;
-  }
+}
 
 .sticky {
     position: fixed;
@@ -58,8 +58,6 @@
 .text-banner {
     position: sticky;
     text-align: center;
-   
-    
 }
 
 /*About page*/
@@ -90,12 +88,12 @@ hr.solid {
 .p-text {
     text-align: center;
 }
+
 /*Div-Button*/
 .div-btn {
     padding: 8px 5px;
     display: flex;
     justify-content: center;
-    
 }
 
 /*Button*/
@@ -142,7 +140,6 @@ hr.solid {
     text-align: center;
 }
 
-
 .title-card {
     padding: 10px 10px;
     font-weight: bold;
@@ -185,14 +182,12 @@ hr.solid {
     border: 2px solid #48b91c;
     background-color: #f2f2f2;
     color: #48b91c;
-    
 }
 
 .btn-like:hover{
     transition: 1s;
     color: #f2f2f2;
     background-color: #48b91c;
-    
 }
 
 .btn-dislike {
