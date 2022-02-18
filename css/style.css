@@ -241,7 +241,7 @@ hr.solid {
 .form {
     width: 100%;
     background-color: #e75d1c;
-    color: #000;
+    color: #f2f2f2;
     font-size: 16px;
     display: flex;
     justify-content: space-around;
@@ -270,6 +270,7 @@ hr.solid {
     margin: 8px 0px;
     box-sizing: border-box;
     border-radius: 10px;
+    border-color: #f2f2f2;
     resize: none;
 }
 
